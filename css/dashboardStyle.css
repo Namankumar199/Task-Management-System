@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.left-container {
+    min-width: 200px;
+    width: 15%;
+    /* border: 2px solid green; */
+}
+
+.left-header {
+    margin: 5px;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    background-color: rgb(51, 122, 183);
+    color: #fff;
+}
+
+.userName {
+    text-align: center;
+    font-size: 22px;
+}
+
+.menus-list {
+    padding-right: .5rem;
+}
+
+.menus-list li {
+    list-style-type: none;
+}
+
+.menus-list a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    /* background-color: aqua; */
+    padding: 0.8rem 1rem;
+    margin: 5px 0;
+    font-size: 20px;
+    color: rgb(51, 122, 183);
+    transition: all 0.4s ease-in-out;
+}
+
+
+.menus-list a:hover {
+    background-color: rgb(51, 122, 183);
+    color: #fff !important;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.right-container {
+    width: 85%;
+    /* border: 2px solid red; */
+}
+
+.right-header {
+    /* border: 2px solid chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5rem;
+    align-items: center;
+
+}
+
+.burger {
+    width: fit-content;
+    background-color: rgb(51, 122, 183);
+    padding: 15px 10px;
+    border-radius: 12px;
+}
+
+.line {
+    width: 20px;
+    height: 4px;
+    margin: 3px;
+    background-color: #fff;
+}
+
+.userName {
+    color: rgb(51, 122, 183);
+}
+
+.right-body {
+    width: 100%;
+    height: 90%;
+
+    background-color: rgb(236, 240, 245);
+}
+
+.dashboard-header {
+    font-size: 30px;
+    /* background-color: #fff; */
+    padding: 1rem 0.5rem;
+    color: rgb(51, 122, 183);
+}
+
+.cards {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    box-shadow: 0px 7px 5px rgb(90, 86, 86);
+    width: 250px;
+    height: 140px;
+    border-radius: 10px;
+    padding: 1rem;
+    color: rgb(51, 122, 183);
+    background-color: #fff;
+    transition: border .3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 4px solid rgb(51, 122, 183)
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.6rem;
+    /* border: 1px solid red; */
+}
+
+.card-text {
+
+    text-align: center;
+}
+
+.show-info {
+    text-align: center;
+}
